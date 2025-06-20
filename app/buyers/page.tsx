@@ -117,11 +117,11 @@ export default function BuyersPage() {
           <div className="flex items-center space-x-4">
             <Button variant="outline" size="sm">
               <MessageSquare className="w-4 h-4 mr-2" />
-              Messages
+              {/* Messages */}
             </Button>
             <Button size="sm">
               <ShoppingCart className="w-4 h-4 mr-2" />
-              Cart (3)
+              {/* Cart (3) */}
             </Button>
           </div>
         </div>

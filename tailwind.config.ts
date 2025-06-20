@@ -109,6 +109,36 @@ const config: Config = {
             transform: 'translateY(-5px)'
           }
         },
+        'float-staggered': {
+          '0%, 100%': {
+            transform: 'translateY(0) rotate(0deg)'
+          },
+          '25%': {
+            transform: 'translateY(-8px) rotate(1deg)'
+          },
+          '50%': {
+            transform: 'translateY(-12px) rotate(0deg)'
+          },
+          '75%': {
+            transform: 'translateY(-8px) rotate(-1deg)'
+          }
+        },
+        'scroll-horizontal': {
+          '0%': {
+            transform: 'translateX(0)'
+          },
+          '100%': {
+            transform: 'translateX(-100%)'
+          }
+        },
+        'scroll-horizontal-reverse': {
+          '0%': {
+            transform: 'translateX(-100%)'
+          },
+          '100%': {
+            transform: 'translateX(0)'
+          }
+        },
         'scale': {
           '0%, 100%': {
             transform: 'scale(1)'

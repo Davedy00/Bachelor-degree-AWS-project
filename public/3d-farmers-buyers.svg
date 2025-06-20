@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect width="800" height="600" fill="#F0FDF4"/>
+  
+  <!-- Market Stall -->
+  <g transform="translate(400, 300)">
+    <!-- Stall Base -->
+    <rect x="-150" y="50" width="300" height="200" fill="#4ADE80" rx="10"/>
+    <rect x="-140" y="60" width="280" height="180" fill="#86EFAC" rx="5"/>
+    
+    <!-- Stall Roof -->
+    <path d="M-180 50 L0 -50 L180 50" fill="#22C55E" stroke="#166534" stroke-width="2"/>
+    
+    <!-- Products Display -->
+    <g transform="translate(-120, 80)">
+      <!-- Vegetables -->
+      <circle cx="30" cy="30" r="20" fill="#84CC16"/>
+      <circle cx="80" cy="30" r="20" fill="#A3E635"/>
+      <circle cx="130" cy="30" r="20" fill="#4ADE80"/>
+      
+      <!-- Fruits -->
+      <circle cx="30" cy="80" r="20" fill="#F59E0B"/>
+      <circle cx="80" cy="80" r="20" fill="#FBBF24"/>
+      <circle cx="130" cy="80" r="20" fill="#FCD34D"/>
+    </g>
+  </g>
+  
+  <!-- Farmer Character -->
+  <g transform="translate(250, 400)">
+    <!-- Farmer Body -->
+    <rect x="-20" y="-60" width="40" height="60" fill="#166534"/>
+    <circle cx="0" cy="-80" r="20" fill="#FCD34D"/>
+    
+    <!-- Farmer Hat -->
+    <path d="M-25 -90 L25 -90 L20 -70 L-20 -70 Z" fill="#166534"/>
+  </g>
+  
+  <!-- Buyer Character -->
+  <g transform="translate(550, 400)">
+    <!-- Buyer Body -->
+    <rect x="-20" y="-60" width="40" height="60" fill="#1E40AF"/>
+    <circle cx="0" cy="-80" r="20" fill="#FCD34D"/>
+    
+    <!-- Buyer Bag -->
+    <path d="M-15 -20 L15 -20 L20 20 L-20 20 Z" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g transform="translate(400, 300)">
+    <!-- Sun -->
+    <circle cx="-300" cy="-200" r="40" fill="#FCD34D"/>
+    <g transform="translate(-300, -200)">
+      <line x1="0" y1="-60" x2="0" y2="-40" stroke="#FCD34D" stroke-width="4"/>
+      <line x1="60" y1="0" x2="40" y2="0" stroke="#FCD34D" stroke-width="4"/>
+      <line x1="0" y1="60" x2="0" y2="40" stroke="#FCD34D" stroke-width="4"/>
+      <line x1="-60" y1="0" x2="-40" y2="0" stroke="#FCD34D" stroke-width="4"/>
+    </g>
+    
+    <!-- Clouds -->
+    <g transform="translate(200, -150)">
+      <circle cx="0" cy="0" r="20" fill="white"/>
+      <circle cx="25" cy="0" r="25" fill="white"/>
+      <circle cx="50" cy="0" r="20" fill="white"/>
+    </g>
+  </g>
+  
+  <!-- Connection Line -->
+  <path d="M300 400 C400 300 500 300 600 400" stroke="#4ADE80" stroke-width="4" stroke-dasharray="10 5"/>
+  
+  <!-- Digital Elements -->
+  <g transform="translate(400, 300)">
+    <!-- Mobile Phone -->
+    <rect x="-30" y="-100" width="60" height="100" rx="10" fill="#1E293B"/>
+    <rect x="-25" y="-95" width="50" height="90" rx="5" fill="#0F172A"/>
+    
+    <!-- Connection Dots -->
+    <circle cx="-200" cy="0" r="5" fill="#4ADE80"/>
+    <circle cx="-150" cy="0" r="5" fill="#4ADE80"/>
+    <circle cx="-100" cy="0" r="5" fill="#4ADE80"/>
+  </g>
+</svg> 
